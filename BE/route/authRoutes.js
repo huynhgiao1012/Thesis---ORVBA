@@ -1,0 +1,13 @@
+const express = require("express");
+const router = express.Router();
+const authController = require("../controllers/authController");
+const { jwtAuth } = require("../middleware/jwtAuth");
+const { basicAuth } = require("../middleware/basicAuth");
+const { limiter } = require("../middleware/rateLimit");
+router.post("/register", authController.register);
+router.post("/verifyOTP/:id", authController.verifyOTP);
+router.post("/login", authController.login);
+router.post("/forgetPassword", authController.forgetPassword);
+router.post("/reset-Password", authController.resetPassword);
+router.get("/home", jwtAuth, authController.home);
+module.exports = router;

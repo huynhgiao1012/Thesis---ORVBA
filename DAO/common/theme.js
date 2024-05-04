@@ -1,0 +1,16 @@
+export const themeColors = {
+  bg: '#ffffff',
+  primaryColor: '#3cbcc4',
+  primaryColor2: '#196462',
+  primaryColor3: '#7C9797',
+  primaryColor4: '#34acaf',
+  primaryColor5: '#D8E5E5',
+  primaryColor6: '#98C4C4',
+  primaryColor7: '#3C3434',
+  primaryColor8: '#a49484',
+  gray: '#D6D6D6',
+  black: '#000000',
+  white: '#FFFFFF',
+  gray60: '#999999',
+  yellow: '#FFC901',
+};
