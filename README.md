@@ -13,7 +13,7 @@ Firstly, you need to clone our project. Then you can access to each folder and i
 2. Folder BE:
 - npm i
 - npm start
-
+Node version: ^17.7.2
 3. Folder DAOManagement:
 - npm i 
 - npm start
